@@ -1,0 +1,73 @@
+/* Estilos globales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+/* Contenedor principal de la aplicación */
+app-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #070606;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Título de la aplicación */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input de nueva tarea */
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Lista de tareas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Tareas individuales */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón Eliminar */
+button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el botón Eliminar al pasar el mouse sobre él */
+button:hover {
+  background-color: #d84315;
+}

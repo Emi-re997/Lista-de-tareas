@@ -1,0 +1,64 @@
+/* lista-tareas.component.css */
+
+/* Estilos para el componente de lista de tareas */
+.lista-tareas {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos para el título de la lista de tareas */
+.lista-tareas h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el campo de entrada de nueva tarea */
+.lista-tareas input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #333; /* Fondo gris oscuro para el campo de entrada */
+  color: #fff; /* Texto blanco para el campo de entrada */
+}
+
+/* Estilos para la lista de tareas */
+.lista-tareas ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilos para las tareas individuales */
+.lista-tareas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #333; /* Fondo gris oscuro para las tareas */
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos para el botón Eliminar */
+.lista-tareas button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el botón Eliminar al pasar el mouse sobre él */
+.lista-tareas button:hover {
+  background-color: #d84315;
+}

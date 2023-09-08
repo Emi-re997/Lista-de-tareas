@@ -1,0 +1,10 @@
+<div>
+  <h1>Lista de Tareas</h1>
+  <input [(ngModel)]="nuevaTarea" (keyup.enter)="agregarTarea()" class="input-tarea">
+  <ul>
+    <li *ngFor="let tarea of tareas" class="tarea">
+      {{ tarea }}
+      <button (click)="eliminarTarea(tarea)" class="boton-eliminar">Eliminar</button>
+    </li>
+  </ul>
+</div>
